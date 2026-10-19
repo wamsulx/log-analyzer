@@ -1,0 +1,8 @@
+2026-10-19 10:15:22 Security EventID=4625 IP=192.168.1.50 Message: Failed login attempt for user admin
+2026-10-19 10:15:23 Security EventID=4625 IP=192.168.1.50 Message: Failed login attempt for user admin
+2026-10-19 10:15:25 Security EventID=4625 IP=192.168.1.50 Message: Failed login attempt for user admin
+2026-10-19 10:15:28 Security EventID=4625 IP=192.168.1.50 Message: Failed login attempt for user admin
+2026-10-19 10:16:00 Security EventID=4624 IP=192.168.1.50 Message: Successful login for user admin
+2026-10-19 10:18:04 PowerShell EventID=4104 Message: powershell.exe -enc JABhAD0efQ== 
+2026-10-19 10:20:10 Security EventID=4720 Message: A user account was created: hacker_sec
+2026-10-19 10:21:00 Security EventID=4732 Message: A member was added to a security group: Administrators

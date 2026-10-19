@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SOC Security Incident Report</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12pt;
+            line-height: 1.5;
+            color: #000000;
+            background-color: #ffffff;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        .meta {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 3px;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        code {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 10pt;
+            background-color: #f8f8f8;
+            border: 1px solid #e0e0e0;
+            padding: 1px 4px;
+        }
+        .no-data {
+            font-style: italic;
+            color: #444444;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SOC Security Incident Report</h1>
+    <div class="meta">Automated Analysis Summary</div>
+
+    <h2>1. Brute-Force Activity (EventID 4625)</h2>
+    <ul><li><b>Suspicious IP:</b> 192.168.1.50 — <b>4</b> failed login attempts</li></ul>
+
+    <h2>2. Suspicious PowerShell Execution (EventID 4104)</h2>
+    <ul><li><b>Line 6:</b> Encoded command detected<br>Raw B64: <code>JABhAD0efQ==</code><br>Decoded Payload: <code>$aḽ</code></li></ul>
+
+    <h2>3. Account Modifications & Privilege Escalation</h2>
+    <ul><li><b>Line 7:</b> Account creation detected — <code>2026-10-19 10:20:10 Security EventID=4720 Message: A user account was created: hacker_sec</code></li><li><b>Line 8:</b> Group membership change detected — <code>2026-10-19 10:21:00 Security EventID=4732 Message: A member was added to a security group: Administrators</code></li></ul>
+
+</body>
+</html>
